@@ -41,64 +41,13 @@
   background: red;
 }
 
-html {
-  background: var(--background);
-}
-
-header {
-  font-family: 'Inter Tight', sans-serif;
-}
-
-
-/** HYPERLINK SETTINGS **/
-a {
-  color: var(--text);
-  text-decoration: none;
-}
-
-img {
-  height: 10em;
-  width: auto;
-}
-
-ion-icon.md.hydrated {
-  margin-right: 0.4em;
-}
-
-/** NAVIGATION BAR **/
-
-header nav {
-  display: flex;
-  background: black;
-  justify-content: center;
-}
-
-header a {
-  font-size: 15px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-header section {
-  height: 3em;
-  display: flex;
-  background: black;
-  align-items: center;
-  justify-content: center;
-}
-
-header section ul {
-  gap: 1em;
-  height: 100%;
-  display: flex;
-}
-
-header section ul li {
-  height: 100%;
-}
-
-header section ul li a {
-  height: 100%;
-  display: flex;
-  align-items: center;
+body {
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Inter Tight';
+    font-weight: bold;
 }
