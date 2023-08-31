@@ -42,6 +42,7 @@
 }
 
 body {
+    font-size: 6vw;
     background: var(--background);
     display: flex;
     justify-content: center;
